@@ -1,0 +1,30 @@
+.container_navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E6EFE9;
+  padding: 1.5rem 12rem .5rem 10rem;
+}
+.imagem-card{
+  max-width: 20%;
+}
+.lista_navbar{
+  display: flex;
+  font-size: .8rem;
+  font-weight: 500;
+
+}
+.pages{
+  margin-left: 1.5rem;
+  padding: .25rem 2.5rem;
+  border-radius: 25px;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+.pages:hover{
+  color: #ffff;
+  background-color: #30B27F;
+  padding: .25rem 2.5rem;
+  border-radius: 25px;
+
+}
