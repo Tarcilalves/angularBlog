@@ -1,13 +1,16 @@
 <article class="container_card-horizontal">
-  <img class="imagem-card" src="../../../assets/imagem-quadrada.svg" alt="Descrição acessível da imagem">
+  <img class="imagem-card"
+    src="{{photoCover}}"
+    alt="Descrição acessível da imagem"
+  >
 
   <div class="card-content">
     <div>
-    <h2 class="titulo-card">Título do Card</h2>
-    <p class="texto-card">Texto descritivo do card com linhas limitadas </p>
+    <h2 class="titulo-card">{{cardTitle}}</h2>
+    <p class="texto-card">{{cardDescription}}</p>
     </div>
     <div class="container_link">
-    <a href="#" class="link">ver mais</a>
+    <a href="{{cardLink}}" class="link">ver mais</a>
     </div>
   </div>
 </article>

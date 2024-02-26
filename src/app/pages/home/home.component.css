@@ -1,9 +1,17 @@
+
+
+.container_navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
 .container_card-horinzontal, .container_card-vertical, .container__card-info{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem 0;
-
 
 }
 

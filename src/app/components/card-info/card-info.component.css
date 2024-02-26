@@ -9,10 +9,12 @@
   background-color: #D4E7DB;
   border-radius: 20px;
 
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container_card-horizontal:hover{
-  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.25);
+  background-color: #c3dacb;
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.50);
 }
 .card-content{
   display: flex;

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-card-horizontal',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-horizontal.component.css']
 })
 export class CardHorizontalComponent implements OnInit {
+  //Criar as propriedades do elementos que serão dinâmicos
+  @Input()
+  photoCover:string="";
+  @Input()
+  cardTitle:string="";
+  @Input()
+  cardDescription:string="";
+  @Input()
+  cardLink:string=""
 
   constructor() { }
 

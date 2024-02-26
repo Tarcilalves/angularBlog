@@ -1,9 +1,13 @@
 .container_card-horizontal{
   display: flex;
   max-height: 150px;
-  max-width: 100%;
+  max-width: 420px;
   justify-content: space-around;
-  padding-bottom: 1rem;
+  background-color: #F6F5F2;
+  margin-bottom: 1rem;
+}
+.container_card-horizontal:hover{
+  background-color: #dddddca6;
 }
 .card-content{
   display: flex;
@@ -11,23 +15,23 @@
   flex-direction: column;
   justify-content: space-around;
   padding: .5rem .5rem;
-  background-color: #F6F5F2;
+
 }
 .titulo-card{
   display: flex;
   flex-direction: column;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #323232;
   padding-bottom: .5rem;
-  background-color: #F6F5F2;
+
 }
 
 
 .texto-card{
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: wrap;
   max-width: 200px; /* ou outro valor adequado */
   font-size: .8rem;
 }

@@ -1,42 +1,112 @@
 
 <!--Navbar-->
 <nav>
-  <div class="o-nav">
+  <section class="o-nav container_navbar">
     <app-menu-bar></app-menu-bar>
-  </div>
+  </section>
 </nav>
 <!--Cabelho - Menu -->
 <header>
   <div class="o-header">
-    <app-banner></app-banner>
+    <app-banner
+      photoBanner="../../../assets/banner.svg"
+    >
+  </app-banner>
   </div>
 </header>
  <!-- Principal -->
  <main>
   <div class="o-principal">
     <section class="container_card-horinzontal">
-      <app-card-horizontal></app-card-horizontal>
-      <app-card-horizontal></app-card-horizontal>
-      <app-card-horizontal></app-card-horizontal>
-      <app-card-horizontal></app-card-horizontal>
-      <app-card-horizontal></app-card-horizontal>
-      <app-card-horizontal></app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/imagem-quadrada.svg"
+        cardTitle="Direitos Humanos"
+        cardDescription="Câmera  aprova laqueadura voluntária."
+        cardLink="https://www12.senado.leg.br/radio/1/noticia/2023/03/06/ja-esta-em-vigor-a-lei-que-facilita-a-laqueadura-e-a-vasectomia"
+      >
+      </app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/barbarapenha.svg"
+        cardTitle="INST. BAARBARA PENNA"
+        cardDescription="O instituto leva o nome da vítima de violência doméstica."
+        cardLink="https://barbarapenna.46graus.com/"
+      >
+      </app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/tomojuntas.svg"
+        cardTitle="ONG TAMO JUNTAS"
+        cardDescription="Presta assistência a mulheres em situação de violência."
+        cardLink="https://tamojuntas.org.br/"
+      >
+      </app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/imaginajuntas.svg"
+        cardTitle="Imagina Juntas"
+        cardDescription="Podcast feminista para acompanhar é o sobre desafios dos 30+"
+        cardLink="https://open.spotify.com/show/0zsyjHtbL1I2pLkV6oG2gO"
+      >
+      </app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/grupomulheres.svg"
+        cardTitle="Grupo Mulheres"
+        cardDescription="Políticas afirmativas e eliminar as desigualdades sociais e muitos outros assuntos."
+        cardLink="https://www.grupomulheresdobrasil.org.br/"
+      >
+      </app-card-horizontal>
+      <app-card-horizontal
+        photoCover="../../../assets/elas.svg"
+        cardTitle="Fundo ELAS"
+        cardDescription="O ELAS+ é uma organização feminista não governamental com fundo Social."
+        cardLink="https://fundosocialelas.org/"
+      >
+      </app-card-horizontal>
     </section>
     <section class="container__card-info">
       <img class="icon-card" src="../../../assets/arrow-left.svg" alt="Descrição acessível da imagem">
       <app-card-info></app-card-info>
       <app-card-info></app-card-info>
       <app-card-info></app-card-info>
-      <app-card-info></app-card-info>
       <img class="icon-card" src="../../../assets/arrow-hight.svg" alt="Descrição acessível da imagem">
     </section>
-    <!-- <section class="container_card-vertical">
-      <app-card-vertical></app-card-vertical>
-      <app-card-vertical></app-card-vertical>
-      <app-card-vertical></app-card-vertical>
-      <app-card-vertical></app-card-vertical>
-      <app-card-vertical></app-card-vertical>
-    </section> -->
+    <!--
+    <section class="container_card-vertical">
+      <app-card-vertical
+        photoCover="../../../assets/elas.svg"
+        cardTitle="Fundo ELAS"
+        cardDescription="O ELAS+ é uma organização feminista não governamental com fundo Social."
+        cardLink="https://fundosocialelas.org/"
+      >
+      </app-card-vertical>
+      <app-card-vertical
+        photoCover="../../../assets/grupomulheres.svg"
+        cardTitle="Grupo Mulheres"
+        cardDescription="Políticas afirmativas e eliminar as desigualdades sociais e muitos outros assuntos."
+        cardLink="https://www.grupomulheresdobrasil.org.br/"
+      >
+      </app-card-vertical>
+      <app-card-vertical
+        photoCover="../../../assets/ongclaodgirls.svg"
+        cardTitle="Meetup Cloud Girls"
+        cardDescription="São mulheres que dedicam o seu tempo voluntariamente para apoiarem outras mulheres."
+        cardLink="https://www.cloudgirls.com.br/"
+      >
+      </app-card-vertical>
+      <app-card-vertical
+        photoCover="../../../assets/b2mamy.svg"
+        cardTitle="B2Mamy"
+        cardDescription="Uma comunidade que cuida de quem cuida: abraça, conecta, impulsiona, capacita, entretém, emprega, acolhe e provoca."
+        cardLink="https://www.b2mamy.com.br/"
+      >
+      </app-card-vertical>
+      <app-card-vertical
+        photoCover="../../../assets/b2mamy.svg"
+        cardTitle="B2Mamy"
+        cardDescription="Uma comunidade que cuida de quem cuida: abraça, conecta, impulsiona, capacita, entretém, emprega, acolhe e provoca."
+        cardLink="https://www.b2mamy.com.br/"
+      >
+      </app-card-vertical>
+    </section>
+    -->
   </div>
  </main>
 
