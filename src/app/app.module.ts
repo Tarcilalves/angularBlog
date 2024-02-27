@@ -14,6 +14,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { ExploreComponent } from './pages/explore/explore.component';
 import { CardSectionsComponent } from './components/card-sections/card-sections.component';
+import { CardDestaqueComponent } from './components/card-destaque/card-destaque.component';
+import { IniciativasComponent } from './pages/iniciativas/iniciativas.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { CardSectionsComponent } from './components/card-sections/card-sections.
     HomeComponent,
     ContentComponent,
     ExploreComponent,
-    CardSectionsComponent
+    CardSectionsComponent,
+    CardDestaqueComponent,
+    IniciativasComponent
   ],
   imports: [
     BrowserModule,

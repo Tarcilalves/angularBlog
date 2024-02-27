@@ -1,0 +1,70 @@
+.container_card-destaque{
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f8f6;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+.container_card-horizontal:hover{
+  background-color: #dddddca6;
+}
+
+.imagem-card{
+  width: 50vw;
+  padding-right: 1rem;
+}
+.card-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: .5rem .5rem;
+
+}
+.titulo-card{
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #323232;
+  padding-bottom: 1rem;
+
+}
+
+
+.texto-card{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  max-width: 100%; /* ou outro valor adequado */
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.textSourceContent-card{
+  font-size: .8rem;
+  font-weight: 500;
+  color: #939393;
+}
+
+.container_link{
+  text-align: right;
+
+}
+
+.link{
+  color: #EB1EDA;
+  background-color: #bfac8f4b;
+  font-weight: 700;
+  padding: .5rem 3rem ;
+  text-align: right;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.15);
+  text-transform: uppercase;
+  font-size: 1rem;
+
+}
+.link:hover{
+  color: #f312e0;
+  background-color: #e99de385;
+}

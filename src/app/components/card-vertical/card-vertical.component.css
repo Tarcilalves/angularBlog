@@ -38,12 +38,15 @@
 }
 
 
-.texto-card{
+.texto-card {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: wrap;
+  -webkit-line-clamp: 3; /* Número máximo de linhas antes de aplicar ellipsis */
+  max-height: 3rem; /* Altura máxima em pixels */
+  white-space: normal; /* Define o comportamento de quebra de linha padrão */
   font-size: .5rem;
-
 }
 
 

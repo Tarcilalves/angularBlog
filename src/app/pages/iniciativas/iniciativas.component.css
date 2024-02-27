@@ -1,0 +1,64 @@
+.card-destaque{
+  padding: 8rem 0 1rem 0;
+}
+
+.container_card-vertical{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 0;
+
+}
+
+.pageiniciativa_titlePrincipal{
+  padding: 1rem 0 1.5rem 0;
+  font-size: 2rem;
+  padding: 1rem 0;
+  font-weight: 500;
+  color: #939393;
+
+}
+
+.pageiniciativa_title{
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 300;
+  text-decoration: overline;
+}
+
+body{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "header "
+  "main "
+  "footer "
+  ;
+
+  grid-template-columns: 1fr;
+
+
+}
+.o-nav{
+  grid-area: nav;
+
+}
+
+.o-header{
+  grid-area: header;
+
+
+
+}
+
+.o-principal{
+  grid-area: main;
+  margin: 0 10rem;
+
+}
+
+.o-footer{
+  grid-area: footer;
+
+}

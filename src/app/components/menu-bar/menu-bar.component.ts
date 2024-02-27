@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  Id:string | undefined;
+
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+      this.Id = params['id'];
+    });
+    
+  }
 
   ngOnInit(): void {
   }
