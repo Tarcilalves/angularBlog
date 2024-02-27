@@ -1,0 +1,67 @@
+.container_navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container_header{
+  padding-top: 6rem;
+  margin: 2rem 10rem;
+}
+.card_title{
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+
+.card_description{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #939393;
+}
+
+
+
+.container_section{
+  display: grid;
+  grid-template-columns: 220px 220px 220px 220px;
+  margin-bottom: 1rem;
+}
+
+body{
+  display: grid;
+  grid-template-areas:
+  "nav"
+  "header "
+  "main "
+  "footer "
+  ;
+
+  grid-template-columns: 1fr;
+
+
+}
+.o-nav{
+  grid-area: nav;
+
+}
+
+.o-header{
+  grid-area: header;
+  margin: 0 10rem;
+
+
+
+}
+
+.o-principal{
+  grid-area: main;
+  margin: 0 20rem;
+
+}
+
+.o-footer{
+  grid-area: footer;
+
+}

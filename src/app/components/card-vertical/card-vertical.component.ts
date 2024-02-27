@@ -14,7 +14,8 @@ export class CardVerticalComponent implements OnInit {
   @Input()
   cardDescription:string="";
   @Input()
-  cardLink:string=""
+  cardLink:string="";
+
 
   constructor() { }
 

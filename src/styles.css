@@ -2,8 +2,10 @@
 *{
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  font-weight: 400;
   /* considera a borda como o tamanho total para facilitar o atributos de tamanhos com max-widht*/
    box-sizing: border-box;
+   color: #323232;
 
    /* Reset */
     html, body, div, span, applet, object, iframe,

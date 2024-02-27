@@ -1,0 +1,26 @@
+.container_card-sections{
+  position: relative;
+  max-width: 200px;
+}
+.container_card-sections:hover{
+  box-shadow: 0px 0px 15px 0px rgba(10, 10, 10, 0.342);
+  border: #ffff 1px solid;
+}
+
+.card_photoCover{
+  width: 100%;
+}
+
+
+.card-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.card_title{
+  color: #ffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: .5rem;
+}
